@@ -40,5 +40,3 @@ pytest -q
 ```
 Tests do not call the paid API. A live generation requires a valid API key, network access, model access, and available billing quota.
 
-## Production hardening
-For deployment, add authentication, per-user quotas, request throttling, retention controls, object storage, structured logs, and a secrets manager. SQLite is appropriate for a local single-user demo, not concurrent multi-instance production.
